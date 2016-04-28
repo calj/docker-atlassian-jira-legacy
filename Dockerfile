@@ -3,7 +3,7 @@ FROM java:7
 # Configuration variables.
 ENV JIRA_HOME     /var/atlassian/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
-ENV JIRA_VERSION  5.2.10
+ENV JIRA_VERSION 6.1.6
 
 # Install Atlassian JIRA and helper tools and setup initial home
 # directory structure.
